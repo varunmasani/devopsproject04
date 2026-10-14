@@ -1,0 +1,190 @@
+Common CI/CD File Names
+The specific name and syntax of the CI/CD file depend on the platform you are using:
+GitLab CI/CD: Uses a file named .gitlab-ci.yml.
+GitHub Actions: Uses YAML files typically located in the .github/workflows/ directory.
+Jenkins: Often uses a Jenkinsfile.
+Azure DevOps: Uses a azure-pipelines.yml file for YAML pipelines. 
+about.gitlab.com
+about.gitlab.com
+ +3
+Key Components of a CI/CD File
+The configuration file generally structures the automation into a sequence of jobs and stages: 
+about.gitlab.com
+about.gitlab.com
+ +3
+Stages: These define the order of operations in the pipeline. Common stages include build, test, and deploy. 
+about.gitlab.com
+about.gitlab.com
+Jobs: These are the specific tasks that run within a stage. A job might compile code, run unit tests, or deploy the application to a staging environment. 
+about.gitlab.com
+about.gitlab.com
+ +2
+Scripts: Commands executed by the jobs, such as npm install or ./build.sh
+
+
+Common CI/CD File Names
+The specific name and syntax of the CI/CD file depend on the platform you are using:
+GitLab CI/CD: Uses a file named .gitlab-ci.yml.
+GitHub Actions: Uses YAML files typically located in the .github/workflows/ directory.
+Jenkins: Often uses a Jenkinsfile.
+Azure DevOps: Uses a azure-pipelines.yml file for YAML pipelines. 
+about.gitlab.com
+about.gitlab.com
+ +3
+Key Components of a CI/CD File
+The configuration file generally structures the automation into a sequence of jobs and stages: 
+about.gitlab.com
+about.gitlab.com
+ +3
+Stages: These define the order of operations in the pipeline. Common stages include build, test, and deploy. 
+about.gitlab.com
+about.gitlab.com
+Jobs: These are the specific tasks that run within a stage. A job might compile code, run unit tests, or deploy the application to a staging environment. 
+about.gitlab.com
+about.gitlab.com
+ +2
+Scripts: Commands executed by the jobs, such as npm install or ./build.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common CI/CD File Names
+The specific name and syntax of the CI/CD file depend on the platform you are using:
+GitLab CI/CD: Uses a file named .gitlab-ci.yml.
+GitHub Actions: Uses YAML files typically located in the .github/workflows/ directory.
+Jenkins: Often uses a Jenkinsfile.
+Azure DevOps: Uses a azure-pipelines.yml file for YAML pipelines. 
+about.gitlab.com
+about.gitlab.com
+ +3
+Key Components of a CI/CD File
+The configuration file generally structures the automation into a sequence of jobs and stages: 
+about.gitlab.com
+about.gitlab.com
+ +3
+Stages: These define the order of operations in the pipeline. Common stages include build, test, and deploy. 
+about.gitlab.com
+about.gitlab.com
+Jobs: These are the specific tasks that run within a stage. A job might compile code, run unit tests, or deploy the application to a staging environment. 
+about.gitlab.com
+about.gitlab.com
+ +2
+Scripts: Commands executed by the jobs, such as npm install or ./build.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common CI/CD File Names
+The specific name and syntax of the CI/CD file depend on the platform you are using:
+GitLab CI/CD: Uses a file named .gitlab-ci.yml.
+GitHub Actions: Uses YAML files typically located in the .github/workflows/ directory.
+Jenkins: Often uses a Jenkinsfile.
+Azure DevOps: Uses a azure-pipelines.yml file for YAML pipelines. 
+about.gitlab.com
+about.gitlab.com
+ +3
+Key Components of a CI/CD File
+The configuration file generally structures the automation into a sequence of jobs and stages: 
+about.gitlab.com
+about.gitlab.com
+ +3
+Stages: These define the order of operations in the pipeline. Common stages include build, test, and deploy. 
+about.gitlab.com
+about.gitlab.com
+Jobs: These are the specific tasks that run within a stage. A job might compile code, run unit tests, or deploy the application to a staging environment. 
+about.gitlab.com
+about.gitlab.com
+ +2
+Scripts: Commands executed by the jobs, such as npm install or ./build.sh
+
+
+
+
+
+
+
+This image is an organizational chart representing the structure and roles within a research lab.    The structure shows a centralized hierarchy where all roles report directly to "Your Lab".  The Director is identified as the owner of the organization.  Key roles include a Lab Manager, PhD Student, Research Assistant, and Post-Doc, all classified as members. 
+
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>kms-api-examples</groupId>
+  <artifactId>kms-api-examples</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.3.2</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient-cache</artifactId>
+			<version>4.3.2</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpmime</artifactId>
+			<version>4.3.2</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.4.0</version>
+		</dependency>
+	</dependencies>
